@@ -12,7 +12,7 @@ It features two main panels:
    `xvr register model` command.
 """
 
-# --- Standard Library Imports ---
+# --- Standard Library Imports --- 
 import os
 import subprocess
 import sys
