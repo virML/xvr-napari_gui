@@ -79,8 +79,8 @@ pip install -r requirements.txt
 
 You will need the datasets and pre-trained models to run the registration. Download them from the official sources:
 
-  * **Datasets:** [https://huggingface.co/datasets/eigenvivek/xvr-data](https://www.google.com/search?q=https://huggingface.co/datasets/eigenvivek/xvr-data)
-  * **Pre-trained Models:** [https://huggingface.co/eigenvivek/xvr](https://www.google.com/search?q=https://huggingface.co/eigenvivek/xvr)
+  * **Datasets:** (https://huggingface.co/datasets/eigenvivek/xvr-data)
+  * **Pre-trained Models:** (https://huggingface.co/eigenvivek/xvr)
 
 Organize these files in a convenient location on your computer.
 
