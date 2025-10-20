@@ -111,9 +111,9 @@ This will open Napari with the custom widgets ready to use.
 
 This repository includes the following tools:
 
-  * **Registration GUI:** (`xvr_register_withanimation.py`) The main tool for running 2D/3D registration using a pre-trained model.
-  * **Training GUI:** (`simple_xvr_gui.py`) A simple interface for training a new registration model from scratch.
-  * **Finetuning GUI:** (`xvr_finetune_gui.py`) An interface for finetuning a general model on a specific patient's CT scan.
+  * **Registration GUI:** (`xvr_register_gui.py`) The main tool for running 2D/3D registration using a pre-trained model.
+  * **Training GUI:** (`training-gui.py`) A simple interface for training a new registration model from scratch.
+  * **Finetuning GUI:** (`finetune-gui.py`) An interface for finetuning a general model on a specific patient's CT scan.
   * **Pose Viewer GUI:** (`parameters_display_gui.py`) A utility to load a `parameters.pt` file and display the 6 DoF pose.
 
 -----
