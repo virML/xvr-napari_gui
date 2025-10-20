@@ -10,7 +10,7 @@ This project makes the advanced features of `xvr` accessible to clinicians and r
   * 🖥️ **Cross-Platform:** Works on macOS, Linux, and Windows.
   * 🖱️ **One-Click Launch:** A central launcher panel allows you to open any of the different GUIs with a single click.
   * 🔬 **Interactive:** Built on Napari for integrated, multi-dimensional viewing of medical images.
-  * 🔗 **Direct Integration:** Provides a seamless bridge to the powerful `xvr` library developed by Vivek Gopalakrishnan.
+  * 🔗 **Direct Integration:** Provides a seamless bridge to the powerful `xvr` library.
 
 -----
 
