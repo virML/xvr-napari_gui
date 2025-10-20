@@ -137,5 +137,5 @@ This repository includes the following tools. The main `Registration GUI` contai
 
 This project is a graphical wrapper for the `xvr` library.
 
-  * **xvr GitHub Repository:** [https://github.com/eigenvivek/xvr](https://www.google.com/search?q=https://github.com/eigenvivek/xvr)
+  * **xvr GitHub Repository:** [[https://github.com/eigenvivek/xvr](https://www.google.com/search?q=https://github.com/eigenvivek/xvr](https://github.com/eigenvivek/xvr))
   * **Original Paper:** [Rapid patient-specific neural networks for intraoperative X-ray to volume registration](https://arxiv.org/abs/2503.16309)
