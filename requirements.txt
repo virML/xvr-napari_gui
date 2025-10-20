@@ -1,0 +1,9 @@
+napari[all]
+qtpy
+scipy
+pandas
+pydicom
+tqdm
+click
+wandb
+xvr @ git+https://github.com/eigenvivek/xvr.git
