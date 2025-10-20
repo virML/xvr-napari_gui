@@ -12,6 +12,8 @@ This project makes the advanced features of `xvr` accessible to clinicians and r
   * 🔬 **Interactive:** Built on Napari for integrated, multi-dimensional viewing of medical images.
   * 🔗 **Direct Integration:** Provides a seamless bridge to the powerful `xvr` library developed by Vivek Gopalakrishnan.
 
+-----
+
 ### Installation and Setup
 
 Follow these steps to set up the environment and run the GUIs.
@@ -77,7 +79,7 @@ pip install -r requirements.txt
 
 You will need the datasets and pre-trained models to run the registration. Download them from the official sources:
 
-  * **Datasets:** [https://huggingface.co/datasets/eigenvivek/xvr-data](https://huggingface.co/datasets/eigenvivek/xvr-data)
+  * **Datasets:** [https://huggingface.co/datasets/eigenvivek/xvr-data](https://www.google.com/search?q=https://huggingface.co/datasets/eigenvivek/xvr-data)
   * **Pre-trained Models:** [https://huggingface.co/eigenvivek/xvr](https://www.google.com/search?q=https://huggingface.co/eigenvivek/xvr)
 
 Organize these files in a convenient location on your computer.
@@ -86,7 +88,7 @@ Organize these files in a convenient location on your computer.
 
 Before launching a GUI for the first time, you must open its Python script in a text editor and **update the default file paths** at the top of the file to point to the data you downloaded.
 
-For example, in `xvr_register_withanimation.py`, edit this section:
+For example, in `xvr_register_gui.py`, edit this section:
 
 ```python
 # ⬇️ PLEASE EDIT THESE to point to your default data locations. ⬇️
@@ -109,12 +111,25 @@ This will open Napari with the custom widgets ready to use.
 
 ### Included GUIs
 
-This repository includes the following tools:
+This repository includes the following tools. The main `Registration GUI` contains a launcher panel to open any of the others.
 
-  * **Registration GUI:** (`xvr_register_gui.py`) The main tool for running 2D/3D registration using a pre-trained model.
-  * **Training GUI:** (`training-gui.py`) A simple interface for training a new registration model from scratch.
-  * **Finetuning GUI:** (`finetune-gui.py`) An interface for finetuning a general model on a specific patient's CT scan.
-  * **Pose Viewer GUI:** (`parameters_display_gui.py`) A utility to load a `parameters.pt` file and display the 6 DoF pose.
+  * **Main Registration GUI (`xvr_register_gui.py`):**
+    The primary tool for running registration using a pre-trained **model**.
+
+  * **Fixed-Pose Registration GUI (`xvr_register_fixed_gui.py`):**
+    A dedicated interface for the `register fixed` mode, where you manually provide the initial 6 DoF pose.
+
+  * **DICOM-Pose Registration GUI (`xvr_register_dicom_gui.py`):**
+    A dedicated interface for the `register dicom` mode, which uses metadata from the X-ray's header for the initial pose.
+
+  * **Training GUI (`training_gui.py`):**
+    A simple interface for training a new registration model from scratch.
+
+  * **Finetuning GUI (`finetune_gui.py`):**
+    An interface for finetuning a general model on a specific patient's CT scan.
+
+  * **Pose Viewer GUI (`parameters_display_gui.py`):**
+    A utility to load a `parameters.pt` file and display the 6 DoF pose.
 
 -----
 
@@ -122,5 +137,5 @@ This repository includes the following tools:
 
 This project is a graphical wrapper for the `xvr` library.
 
-  * **xvr GitHub Repository:** [https://github.com/eigenvivek/xvr](https://github.com/eigenvivek/xvr)
+  * **xvr GitHub Repository:** [https://github.com/eigenvivek/xvr](https://www.google.com/search?q=https://github.com/eigenvivek/xvr)
   * **Original Paper:** [Rapid patient-specific neural networks for intraoperative X-ray to volume registration](https://arxiv.org/abs/2503.16309)
