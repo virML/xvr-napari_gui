@@ -33,27 +33,14 @@ cd xvr_napari_gui
 
 #### 3\. Set Up a Python Virtual Environment
 
-It is highly recommended to use a virtual environment. Choose one of the options below.
-
-**Option A: Using `venv` (Python's built-in tool)**
+It is highly recommended to use a virtual environment.
 
 ```bash
 # Create the virtual environment (named .venv)
 python -m venv .venv
 
 # Activate the environment
-# On macOS/Linux:
 source .venv/bin/activate
-# On Windows:
-# .\.venv\Scripts\activate
-```
-
-**Option B: Using `conda`**
-
-```bash
-# Create and activate the environment
-conda create -n xvr-gui python=3.11 -y
-conda activate xvr-gui
 ```
 
 Your terminal prompt should now show the name of your activated environment (e.g., `(.venv)`).
