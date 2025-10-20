@@ -16,7 +16,7 @@ def run_xvr_register_fixed_cli(config):
 
     command = ["xvr", "register", "fixed"]
 
-    # Required arguments
+    # Required arguments 
     command.extend(["-v", config["volume_path"]])
     command.extend(["-o", config["output_path"]])
     command.extend(["--orientation", config["orientation"]])
