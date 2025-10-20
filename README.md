@@ -27,8 +27,8 @@ Before you begin, ensure you have **Git** and **Python** (version 3.9 or higher)
 Open your terminal and clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/virML/xvr_napari_gui.git
+cd xvr_napari_gui
 ```
 
 #### 3\. Set Up a Python Virtual Environment
