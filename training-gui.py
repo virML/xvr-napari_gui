@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Napari GUI for XVR Model Training.
 
