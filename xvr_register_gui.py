@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Napari GUI for XVR Model-Based 2D/3D Registration.
 
